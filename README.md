@@ -4,8 +4,7 @@
 Para rodar a aplicação via terminal: *mvn spring-boot:run*
 Com o swagger temos a lista de end-points: *localhost:8080/swagger-ui.html*
 
-Client:
-    JSON para salvar um novo caminhoneiro:
+JSON para salvar um novo caminhoneiro:
 ```
     {
     	"name" : "John",
