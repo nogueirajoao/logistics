@@ -2,6 +2,7 @@
 
 ##### Está API está utilizando Spring boot, Spring Data e H2 DB.
 Para rodar a aplicação via terminal: *mvn spring-boot:run*
+
 Com o swagger temos a lista de end-points: *localhost:8080/swagger-ui.html*
 
 Exemplo de body para salvar um novo caminhoneiro:
