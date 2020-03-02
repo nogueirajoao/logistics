@@ -88,18 +88,6 @@ public class TruckerService {
                 .filter(trucker -> trucker.getIsLoaded()).collect(Collectors.groupingBy(
                         trucker -> trucker.getShipping().getShippingDate(), Collectors.counting()));
 
-//        dayReport.forEach((k, v) -> {
-//            list.add("No dia " + k + " passaram " + v + " caminhões carregados.");
-//        });
-
-//        monthReport.forEach((k, v) -> {
-//            list.add("No mês " + k + " passaram " + v + " caminhões carregados.");
-//        });
-
-//        yearReport.forEach((k, v) -> {
-//            list.add("No ano " + k + " passaram " + v + " caminhões carregados.");
-//        });
-
         ReportResponse response = new ReportResponse(dayReport, monthReport, yearReport);
 
         return response;
